@@ -8,7 +8,7 @@
 
 body {
     font-family: "Open Sans", sans-serif;
-    
+
 }
 
 /* styles */
@@ -17,13 +17,13 @@ li {
     list-style: none;
     text-decoration: none;
     color: black;
-    
+
 }
 
 ul {
     display: flex;
     gap: 35px;
-    
+
 }
 
 a {
@@ -31,13 +31,32 @@ a {
     text-decoration: none;
     font-style: bold;
 }
- .nav-button {
+
+h1 {
+
+    font-size: 45px;
+}
+
+.start-free {
+    background-color: blue;
+    color: white;
+    width: 221px;
+    padding: 4px;
+    border-radius: 11px;
+    margin: 35px
+}
+
+
+.nav-button {
     border-radius: 10px;
     background-color: blue;
     color: white;
     height: 30px;
-    width: 60px;;
- }
+    width: 60px;
+    ;
+}
+
+/* navigation bar */
 
 .nav {
     display: flex;
@@ -53,11 +72,36 @@ a {
     display: flex;
 }
 
+
+/* jumbo section */
+
+
 .jumbo {
     background-color: rgb(161, 217, 240);
     display: flex;
+    flex-wrap: wrap;
 }
 
 .container-jumbo {
+    width: 850px;
+    margin: 0 auto;
+}
+
+.container-jumbo-top {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.container-jumbo-bottom {
     display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+.img-container-jumbo {
+    width: 700px;
+}
+
+.img-jumbo {
+    width: 100%;
 }
