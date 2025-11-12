@@ -8,6 +8,7 @@
 
 body {
     font-family: "Open Sans", sans-serif;
+    
 }
 
 /* styles */
@@ -49,5 +50,14 @@ a {
 }
 
 .nav-list {
+    display: flex;
+}
+
+.jumbo {
+    background-color: rgb(161, 217, 240);
+    display: flex;
+}
+
+.container-jumbo {
     display: flex;
 }
