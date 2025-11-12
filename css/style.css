@@ -80,6 +80,7 @@ h1 {
     background-color: rgb(161, 217, 240);
     display: flex;
     flex-wrap: wrap;
+    height: 450px;
 }
 
 .container-jumbo {
@@ -99,9 +100,14 @@ h1 {
 }
 
 .img-container-jumbo {
-    width: 700px;
+     width: 2585px;
 }
 
 .img-jumbo {
     width: 100%;
+}
+
+.container-business {
+    width: 850px;
+    margin: 0 auto;
 }
