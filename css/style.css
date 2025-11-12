@@ -9,3 +9,18 @@
 body {
     font-family: "Open Sans", sans-serif;
 }
+
+/* styles */
+
+li {
+    list-style: none;
+    
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
