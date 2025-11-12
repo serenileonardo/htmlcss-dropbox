@@ -37,6 +37,11 @@ h1 {
     font-size: 45px;
 }
 
+h2 {
+    font-size: 30px;
+}
+
+
 .start-free {
     background-color: blue;
     color: white;
@@ -108,6 +113,26 @@ h1 {
 }
 
 .container-business {
-    width: 850px;
+    width: 700px;
     margin: 0 auto;
+}
+
+.advise {
+        /* display: flex;
+    justify-content: center; */
+    margin-top: 100px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card-type{
+    width: 30%;
+    border: 1px solid;
+}
+ 
+.w-100 {
+    width: 100%;
 }
