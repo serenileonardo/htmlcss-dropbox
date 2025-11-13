@@ -53,11 +53,19 @@ h2 {
 
 }
 
+.start-free:hover {
+    background-color: rgb(62, 158, 236);
+}
+
 .start-free-white {
     background-color: white;
     padding: 11px;
     margin-top: 50px;
     border-radius: 16px;
+}
+
+.start-free-white:hover {
+    background-color: rgb(183, 181, 181);
 }
 
 
@@ -69,6 +77,14 @@ h2 {
     height: 30px;
     width: 60px;
     ;
+}
+
+.nav-button:hover {
+    background-color: rgb(62, 158, 236);
+}
+
+.delete:hover {
+    border-bottom: 1px solid black;
 }
 
 .head-list-footer {
