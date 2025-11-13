@@ -45,14 +45,21 @@ h2 {
 .start-free {
     background-color: blue;
     color: white;
-    width: 125px;
+    width: 161px;
     border-radius: 11px;
-    margin: 15px;
     margin-bottom: 47px;
     margin-top: 9px;
-    padding: 4px;
-   
+    padding: 7px;
+
 }
+
+.start-free-white {
+    background-color: white;
+    padding: 11px;
+    margin-top: 50px;
+    border-radius: 16px;
+}
+
 
 
 .nav-button {
@@ -115,14 +122,16 @@ h2 {
     width: 100%;
 }
 
+/* section cards */
+
 .container-business {
     width: 700px;
     margin: 0 auto;
+    margin-bottom: 120px;
 }
 
 .advise {
-    /* display: flex;
-    justify-content: center; */
+
     margin-top: 100px;
     margin-bottom: 50px;
 }
@@ -150,4 +159,23 @@ h2 {
 
 .w-100 {
     width: 100%;
+}
+
+.joinus-img {
+    width: 428px;
+    border-radius: 17px;
+}
+
+.section-joinus {
+    display: flex;
+    margin: 0 auto;
+    width: 760px;
+}
+
+.joinus-1 {
+    width: 60%;
+}
+
+.joinus-2 {
+    width: 40%;
 }
