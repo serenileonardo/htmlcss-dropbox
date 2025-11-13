@@ -148,7 +148,7 @@ h2 {
 
 .card-type {
     width: 30%;
-    border: solid 0.5px lightgrey;
+    border: solid 0.5px #f6efef;
     padding: 10px;
 }
 
@@ -178,4 +178,14 @@ h2 {
 
 .joinus-2 {
     width: 40%;
+}
+
+.container-dropbox-card {
+     width: 700px;
+    margin: 0 auto;
+    margin-bottom: 120px;
+}
+
+.cards-img {
+    width: 175px;
 }
