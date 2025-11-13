@@ -110,6 +110,15 @@ h2 {
     display: flex;
 }
 
+.nav-hover a:hover {
+    border-bottom: 1px solid black;
+}
+
+.footer-list a:hover {
+    border-bottom: 1px solid white;
+
+}
+
 
 /* jumbo section */
 
