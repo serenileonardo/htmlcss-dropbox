@@ -86,7 +86,11 @@ h2 {
     width: 100%;
     margin: 0 auto;
     background-color: black;
-    height: 500px;
+    height: 350px;
+}
+
+.link-footer {
+    font-size: 11px;
 }
 
 
@@ -223,4 +227,17 @@ h2 {
 
 .footer-container {
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 60px;
+
+}
+
+.footer-list {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
