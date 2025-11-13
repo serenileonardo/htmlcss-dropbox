@@ -45,10 +45,13 @@ h2 {
 .start-free {
     background-color: blue;
     color: white;
-    width: 221px;
-    padding: 4px;
+    width: 125px;
     border-radius: 11px;
-    margin: 35px
+    margin: 15px;
+    margin-bottom: 47px;
+    margin-top: 9px;
+    padding: 4px;
+   
 }
 
 
@@ -105,7 +108,7 @@ h2 {
 }
 
 .img-container-jumbo {
-     width: 2585px;
+    width: 2585px;
 }
 
 .img-jumbo {
@@ -118,21 +121,33 @@ h2 {
 }
 
 .advise {
-        /* display: flex;
+    /* display: flex;
     justify-content: center; */
     margin-top: 100px;
+    margin-bottom: 50px;
 }
+
 
 .card-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 650px;
+    gap: 22px;
+
 }
-.card-type{
+
+.card-type {
     width: 30%;
-    border: 1px solid;
+    border: solid 0.5px lightgrey;
+    padding: 10px;
 }
- 
+
+.bottom-line {
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+}
+
 .w-100 {
     width: 100%;
 }
